@@ -466,6 +466,8 @@ testMe.complete('obj.', common.mustCall((error, data) => {
 ].forEach((type) => {
   putIn.run(['.clear']);
 
+  console.log(`${type.name} -> ${type}`)
+
   if (type === Array) {
     putIn.run([
       'var ele = [];',
