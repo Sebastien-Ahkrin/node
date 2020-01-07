@@ -17,6 +17,8 @@ rules:
       message: "Use `const { Boolean } = primordials;` instead of the global."
     - name: Error
       message: "Use `const { Error } = primordials;` instead of the global."
+    - name: Int16Array
+      message: "Use `const { Int16Array } = primordials;` instead of the global."
     - name: Int32Array
       message: "Use ``const { Int32Array } = primordials;` instead of the global."
     - name: Int8Array
